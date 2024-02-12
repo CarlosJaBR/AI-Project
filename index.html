@@ -1,14 +1,197 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola Mundo</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Analytics Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header>
+    <div class="container">
+      <h1>Data Analytics Portfolio</h1>
+    </div>
+  </header>
+  <section id="about">
+    <div class="container">
+      <h2>About</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>In the world of data analytics, every project is an exciting adventure of discovery and problem-solving. From the first step of data collection to the final phase of presenting results, each stage is full of challenges and opportunities to unlock valuable information.</p>
+          <p>A framework must be followed that allows the standards and objectives sought to be met. A framework for these types of projects is the CRISP methodology.</p>
+        </div>
+        <div class="about-image">
+          <img src="about_image.jpg" alt="About Image">
+        </div>
+      </div>
+      <h3>CRISP Methodology:</h3>
+      <div class="crisp-methodology">
+        <img src="crisp_methodology.jpg" alt="CRISP Methodology Image">
+      </div>
+      <ol class="crisp-checklist">
+        <li>Business understanding <input type="checkbox" class="checkbox"></li>
+        <li>Data understanding <input type="checkbox" class="checkbox"></li>
+        <li>Data  <input type="checkbox" class="checkbox"></li>
+        <li>Modeling <input type="checkbox" class="checkbox"></li>
+        <li>Evaluation <input type="checkbox" class="checkbox"></li>
+        <li>Deployment <input type="checkbox" class="checkbox"></li>
+      </ol>
+    </div>
+  </section>
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skills-column">
+          <h3>Soft Skills</h3>
+          <ul class="soft-skills">
+            <li>
+              <label>Communication</label>
+              <div class="progress-bar" data-level="75">
+                <div class="progress"></div>
+                <div class="progress-percent">75%</div>
+              </div>
+            </li>
+            <li>
+              <label>Critical thinking</label>
+              <div class="progress-bar" data-level="50">
+                <div class="progress"></div>
+                <div class="progress-percent">50%</div>
+              </div>
+            </li>
+            <li>
+              <label>Curiosity</label>
+              <div class="progress-bar" data-level="90">
+                <div class="progress"></div>
+                <div class="progress-percent">90%</div>
+              </div>
+            </li>
+            <li>
+              <label>Collaboration</label>
+              <div class="progress-bar" data-level="60">
+                <div class="progress"></div>
+                <div class="progress-percent">60%</div>
+              </div>
+            </li>
+            <li>
+              <label>Problem solving</label>
+              <div class="progress-bar" data-level="25">
+                <div class="progress"></div>
+                <div class="progress-percent">25%</div>
+              </div>
+            </li>
+            <li>
+              <label>Teamwork</label>
+              <div class="progress-bar" data-level="80">
+                <div class="progress"></div>
+                <div class="progress-percent">80%</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="skills-column">
+          <h3>Hard Skills</h3>
+          <ul class="hard-skills">
+            <li>
+              <label>SQL - Relational Databases</label>
+              <div class="progress-bar" data-level="50">
+                <div class="progress"></div>
+                <div class="progress-percent">50%</div>
+              </div>
+            </li>
+            <li>
+              <label>NoSQL - Non relational databases</label>
+              <div class="progress-bar" data-level="30">
+                <div class="progress"></div>
+                <div class="progress-percent">30%</div>
+              </div>
+            </li>
+            <li>
+              <label>Python</label>
+              <div class="progress-bar" data-level="85">
+                <div class="progress"></div>
+                <div class="progress-percent">85%</div>
+              </div>
+            </li>
+            <li>
+              <label>R</label>
+              <div class="progress-bar" data-level="40">
+                <div class="progress"></div>
+                <div class="progress-percent">40%</div>
+              </div>
+            </li>
+            <li>
+              <label>MATLAB</label>
+              <div class="progress-bar" data-level="70">
+                <div class="progress"></div>
+                <div class="progress-percent">70%</div>
+              </div>
+            </li>
+            <li>
+              <label>Microsoft Excel</label>
+              <div class="progress-bar" data-level="90">
+                <div class="progress"></div>
+                <div class="progress-percent">90%</div>
+              </div>
+            </li>
+            <li>
+              <label>Scala</label>
+              <div class="progress-bar" data-level="65">
+                <div class="progress"></div>
+                <div class="progress-percent">65%</div>
+              </div>
+            </li>
+            <li>
+              <label>PowerBI</label>
+              <div class="progress-bar" data-level="75">
+                <div class="progress"></div>
+                <div class="progress-percent">75%</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+    <div class="container">
+      <h2>Data Analytics Projects</h2>
+      <ul class="projects-list">
+        <li>
+          <a href="sales_analysis.html">
+            <img src="sales_analysis_image.jpg" alt="Sales Analysis Image">
+            <p>Sales Analysis</p>
+          </a>
+        </li>
+        <li>
+          <a href="social_network_analysis.html">
+            <img src="social_network_analysis_image.jpg" alt="Social Network Analysis Image">
+            <p>Social Network Analysis</p>
+          </a>
+        </li>
+        <li>
+          <a href="supply_chain_analysis.html">
+            <img src="supply_chain_analysis_image.jpg" alt="Supply Chain Analysis Image">
+            <p>Analysis in supply chains</p>
+          </a>
+        </li>
+        <li>
+          <a href="recommendation_systems.html">
+            <img src="recommendation_systems_image.jpg" alt="Recommendation Systems Image">
+            <p>Recommendation systems (Movie/show recommendation)</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Data Analytics Portfolio</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 
-    <h1>Hola Mundo</h1>
-
+  <script src="script.js"></script>
 </body>
 </html>
-
